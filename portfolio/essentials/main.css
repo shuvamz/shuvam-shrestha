@@ -1,0 +1,93 @@
+html { 
+	background: url("essential.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}  
+
+header {
+	height: 200px;
+	margin: auto;
+	width: 80%;
+	font-family: 'Open Sans Condensed', sans-serif;
+	
+}
+
+header h1 {
+	font-size: 4em;
+	text-align: center;
+}
+
+header #exercises {
+	text-align: center;
+	margin: auto;
+	width: 80%;
+}
+
+header #exercises ul li{
+	display: inline;
+	list-style: none;
+	font-size: 2em;
+	margin: 20px;
+}
+
+header #exercises ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+header #exercises ul li a:hover {
+	text-decoration: none;
+	color: grey;
+}
+
+section {
+	margin: auto;
+	width: 80%;
+	background-color: #ebebeb;
+	opacity: 0.8;
+	height: 450px;
+}
+
+section h2 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.info {
+	margin-top: 20px;
+	width: 40%;
+	height: 300px;
+	float: left;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 2em;
+	margin-left: 15px;
+}
+
+.photo {
+	margin-top: 30px;
+	width: 40%;
+	height: 300px;
+	float: right;
+	opacity: 1;
+}
+
+#perso{
+	width: 300px;
+	height: 300px;
+	float: right;
+	margin-right: 20px;
+}
+
+footer {
+	margin-top: 350px;
+	text-align: center;
+	width: 100%;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #ebebeb;
+	font-size: 1.3em;
+}
+

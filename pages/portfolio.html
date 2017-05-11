@@ -1,0 +1,142 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title> Portfolio </title>
+	<script src= "../Javascript/jquery.js" type = "text/javascript"> </script>
+	<script src = "../Javascript/unslider.js" type = "text/javascript"> </script>
+	<script src= "../Javascript/foundation.min.js" type = "text/javascript"> </script>
+	<link rel = "stylesheet" href = "../CSS/unslider.css" type = "text/css">
+	<link rel = "stylesheet" href = "../CSS/style.css" type = "text/css">
+	<link rel = "stylesheet" href = "../CSS/foundation.min.css" type = "text/css">
+	<meta charset="utf-8"/>
+	
+	<link rel="icon" type="image/png" sizes="32x32" href="../Favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../Favicon/favicon-16x16.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../Favicon/apple-touch-icon.png">
+	<link rel="manifest" href="../Favicon/manifest.json">
+	<link rel="mask-icon" href="../Favicon/safari-pinned-tab.svg" color="#5bbad5">
+</head>
+
+<body>
+<div class = "container">
+
+	<div class = "row rhead2">
+		<div class = "coloumn chead21 large-12">
+			<div class = "row rcontent">
+				<div class="large-2 columns ccontent"></div>
+					<div class = "large-8 columns ccontent ccontact"> 
+						<div class = "row rnav">
+							<div class = "large-3 columns cnav">
+								<a href = "../index.html"> <h2> HOME </h2> </a>
+							</div>
+							
+							<div class = "large-3 columns cnav">
+								<a href = "portfolio.html"> <h2 id = "tr1"> PORTFOLIO </h2> </a>
+							</div>
+							
+							<div class = "large-3 columns cnav">
+								<a href = "about.html"> <h2> ABOUT </h2> </a>
+							</div>
+							
+							<div class = "large-3 columns cnav">
+								<a href = "contact.html"> <h2> CONTACT </h2> </a>
+							</div>
+						</div>
+						
+						<div class = "row rcont1 rcont2">
+							<div class = "large-12 columns cport">
+								<div class = "row rport">
+								<div class = "sliderContainer">
+									<div class = "img-slider">
+										<ul>
+											<li>
+												<a href = "../portfolio/essentials/essentials.html">
+												<div class = "page1">
+													<h2> ESSENTIALS </h2>
+												</div>
+												</a>
+											</li>
+											
+											<li>
+												<a href = "../portfolio/necessary/necessary.html">
+												<div class = "page2">
+													<h2> NECESSARY </h2>
+												</div>
+												</a>
+											</li>
+											
+												<li>
+													<a href = "../portfolio/cv/newcv.html">
+													<div class = "page3">
+														<h2> CV </h2>
+													</div>
+													</a>
+												</li>
+											</a>
+										</ul>
+									</div>
+									</div>
+								</div>
+								<h3 id = "prtTitle"> BROWSE PORTFOLIO EXERCISES </h3>
+								<div class = "row rcont2">
+
+									<div class = "large-4 columns brow brow1">
+										<a href = "../portfolio/essentials/essentials.html"> <h4> Essentials </h4> </a>
+										<nav id = "exercize">
+											<ul>
+												<a href = "../portfolio/essentials/selectors.html"><li> Selectors </li></a>
+												<a href = "../portfolio/essentials/structure.html"><li> Structure </li></a>
+												<a href = "../portfolio/essentials/common_elements.html"><li> Common Elements </li></a>
+												<a href = "../portfolio/essentials/common_css.html"><li> Common CSS </li></a>
+											</ul>
+										</nav>
+									</div>
+									
+									<div class = "large-4 columns brow brow2">
+										<a href = "../portfolio/necessary/necessary.html"> <h4> Necessary </h4> </a>
+										<nav id = "exercize">
+											<ul>
+												<a href = "../portfolio/necessary/graphics.html"><li> Graphics </li></a>
+												<a href = "../portfolio/necessary/temporal.html"><li> Temporal </li></a>
+												<a href = "../portfolio/necessary/form.html"><li> Form </li></a>
+												<a href = "../portfolio/necessary/table.html"> <li>Table </li></a>
+												<a href = "../portfolio/necessary/css_necessary.html"><li> CSS Necessary </li></a>
+												<a href = "../portfolio/necessary/gumby_template.html"><li> Gumby Template </li></a>
+											</ul>
+										</nav>
+										
+									</div>
+									
+									<div class = "large-4 columns brow brow3">
+										<a href = "../portfolio/cv/newcv.html"> <h4> CV </h4> </a>
+										<nav id = "exercize">
+											<ul>
+												<a href = "../portfolio/cv/newcv.html"><li> CV </li></a>
+												<a href = "../portfolio/cv/cv.html"><li> CV (Without CSS)</li></a>
+											</ul>
+										</nav>
+									</div>
+								</div>
+								
+							</div>				
+						</div>
+						
+					</div>
+				<div class="large-2 columns ccontent"></div>
+			</div>
+		</div>
+			
+		<div class = "row rnote">
+			<div class = "large-12 cnote ccnote cccnote">
+				<p> PLEASE ZOOM OUT IF VIEWING ON OLDER MONITORS </p>
+			</div>
+		</div>
+	</div>
+</div>
+<script type = "text/javascript">
+		$(document).ready(function(){
+			$('.img-slider').unslider();
+		 })
+	</script>
+</body>
+</html>

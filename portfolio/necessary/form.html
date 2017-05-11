@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title> Form </title>
+<meta charset = "utf-8"/>
+<meta name = "Author" content = "Shuvam Shrestha"/>
+<meta name = "Description" content = "Form Exercise"/>
+</head>
+
+<body>
+	<form method="post" enctype="multipart/form-data" action="my_server_program" >
+   <p>
+      <label for="email">What is your Email?</label>
+      <input type="email" id="email" name="email" />
+      <label for="url">Enter a URL:</label>
+      <input type="url" id="url" name="url" />
+      <label for="number">Choose a number:</label>
+      <input type="number" min="1" max="10" step="2" id="number" name="number"  />
+      <p>
+      Choose a number:<br />
+       1 <input type="range" min="1" max="5" step="1" id="range" name="range" /> 5
+      </p>
+      <label for="date">Select a date:</label>
+      <input type="date" id="date" name="date" />
+      <label for="colour">Pick a color:</label>
+      <input type="color" id="colour" name="colour" />
+      <label for="colours">What's your favorite colour?</label>
+      <input type="text" id="colours" list="hint" placeholder="try b!" name="colours" />
+      <datalist id="hint">
+         <option>Red</option>
+         <option>Green</option>
+         <option>Baige</option>
+         <option>Blue</option>
+      </datalist>
+      </p>
+      <p>
+      <button type="submit" value="submit">
+         Submit
+      </button>
+      </p>
+</form>
+</body>
+
+</html>

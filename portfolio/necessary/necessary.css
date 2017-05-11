@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "helvetica";
+    src: url(helv.ttf) format("truetype");
+}
+
+* {
+	font-family: "helvetica";
+}
+
+html { 
+	background: url("necessary.jpg") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}  
+
+.columns {
+	margin-top: 50px;
+	height: 500px;
+}
+
+.navigator {
+	background-color: black;
+	height: 500px;
+}
+
+.navigator h2 {
+	color: yellow;
+	text-align: center;
+	font-family: 'Bungee Outline', cursive;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+.navigator ul {
+	padding-top: 20px;
+}
+
+.navigator ul li {
+	height: 50px;
+	margin-left: -27px;
+	margin-right: -7px;
+	background-color: yellow;
+	list-style: none;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.navigator ul li {
+	padding-top: 6px;
+	font-family: 'Antic Didone', serif;
+	font-weight: bold;
+	font-size: 1.4em;
+	color: black;
+	transition: ease-out 0.1s;
+}
+
+.navigator ul li:hover {
+	background-color: black;
+	color: yellow;
+	transition: ease-in 0.2s;
+}
